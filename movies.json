@@ -1,0 +1,77 @@
+{
+    "status": "success",
+    "message": [
+        {
+            "id": 228,
+            "name": "Update",
+            "image": "public/Image/1657916402coverTest.jpg",
+            "description": "Update1",
+            "category_id": 67,
+            "created_at": "2022-07-13T17:21:41.000000Z",
+            "updated_at": "2022-07-15T20:20:02.000000Z"
+        },
+        {
+            "id": 229,
+            "name": "sssssssssssss",
+            "image": "public/Image/165779805506.jpg",
+            "description": "dddddddddddd",
+            "category_id": 66,
+            "created_at": "2022-07-13T17:23:14.000000Z",
+            "updated_at": "2022-07-14T11:27:35.000000Z"
+        },
+        {
+            "id": 230,
+            "name": "dddddddddd",
+            "image": "public/Image/165779807003.jpg",
+            "description": "AAAAAAAAAAAA",
+            "category_id": 66,
+            "created_at": "2022-07-13T17:24:22.000000Z",
+            "updated_at": "2022-07-14T11:27:50.000000Z"
+        },
+        {
+            "id": 232,
+            "name": "sdasad",
+            "image": "public/Image/165779809702.jpg",
+            "description": "adssad",
+            "category_id": 66,
+            "created_at": "2022-07-14T00:46:11.000000Z",
+            "updated_at": "2022-07-14T11:28:17.000000Z"
+        },
+        {
+            "id": 235,
+            "name": "dsa",
+            "image": "public/Image/1657865768logo.png",
+            "description": "dasdas",
+            "category_id": 65,
+            "created_at": "2022-07-15T06:16:08.000000Z",
+            "updated_at": "2022-07-15T06:16:08.000000Z"
+        },
+        {
+            "id": 236,
+            "name": "dsa",
+            "image": "public/Image/1657889734login-photo.png",
+            "description": "asd",
+            "category_id": 65,
+            "created_at": "2022-07-15T12:55:34.000000Z",
+            "updated_at": "2022-07-15T12:55:34.000000Z"
+        },
+        {
+            "id": 237,
+            "name": "adsasd",
+            "image": "public/Image/1657890184login-photo.png",
+            "description": "asasd",
+            "category_id": 65,
+            "created_at": "2022-07-15T13:03:04.000000Z",
+            "updated_at": "2022-07-15T13:03:04.000000Z"
+        },
+        {
+            "id": 238,
+            "name": "adss",
+            "image": "public/Image/1657890220logo.png",
+            "description": "dassa",
+            "category_id": 65,
+            "created_at": "2022-07-15T13:03:40.000000Z",
+            "updated_at": "2022-07-15T13:03:40.000000Z"
+        }
+    ]
+}
