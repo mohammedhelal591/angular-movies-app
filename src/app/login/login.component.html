@@ -1,1 +1,15 @@
-<p>login works!</p>
+<form [formGroup]="loginForm" (ngSubmit)="submitForm(loginForm)" class="m-auto w-50">
+
+    <div *ngIf="error" class="alert alert-danger">
+        {{error}}
+    </div>
+
+    <label>Email : </label>
+    <input formControlName="email" class="form-control mb-3" type="email">
+    <label>Password : </label>
+    <input formControlName="password" class="form-control mb-3" type="password">
+
+    <p class="text-white">Don't have an account? <a class="text-decoration-none text-white" [routerLink]="['/register']" routerLinkActive="router-link-active" >Register now</a></p>
+
+    <button type="submit" [disabled]="loginForm.invalid" class="btn btn-info btn-submit float-end">Login</button>
+</form>

@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img [src]="imgPrefix + movieData?.image" alt="">
+        </div>
+        <div class="col-md-8">
+            <h2>Name : {{movieData?.name}}</h2>
+            <p>Description : {{movieData?.description}}</p>
+            <p>Created at : {{movieData?.created_at | date: 'medium'}}</p>
+            <p>Updated at : {{movieData?.updated_at | date: 'medium'}}</p>
+            <p>Category : {{movieData?.category['name']}}</p>
+        </div>
+    </div>
+</div>

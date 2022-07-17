@@ -1,0 +1,20 @@
+<form [formGroup]="movieForm" (ngSubmit)="createMovie(movieForm)" class="m-auto w-50">
+
+    <div *ngIf="error" class="alert alert-danger">
+        {{error}}
+    </div>
+
+    <label class="form-label" for="">Name </label>
+    <input formControlName="name" class="form-control mb-3" type="text">
+
+    <label class="form-label" for="">Description </label>
+    <input formControlName="description" class="form-control mb-3" type="text">
+    
+    <label class="form-label" for="">Image </label>
+    <input formControlName="image" class="form-control mb-3" type="file" (change)="onFileChange($event)">
+
+    <label class="form-label" for="">Category ID </label>
+    <input formControlName="category_id" class="form-control mb-3" type="number">
+
+    <button type="submit" [disabled]="movieForm.invalid" class="btn btn-info float-end">Submit</button>
+</form>
